@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Keliann Hagelstein - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Keliann Hagelstein</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./bts.html">Le BTS SIO</a></li>
+            <li><a>Réalisations</a>
+                <ul>
+                    <li><a href="./ap0.html">AP0 et AP1</a></li>
+                    <li><a href="./ap2.html">AP2</a></li>
+                    <li><a href="./ap3.html">AP3</a></li>
+                    <li><a href="./ap4.html">AP4</a></li>
+                    <li><a href="./enstage.html">En stage</a></li>
+                </ul>
+            </li>
+            <li><a>Stages</a>
+                <ul>
+                    <li><a href="./stage1.html">Première année</a></li>
+                    <li><a href="./stage2.html">Deuxième année</a></li>
+                </ul>
+            </li>
+            <li><a href="./competences.html">Compétences</a>
+                <ul>
+                    <li><a href="./synthese.html">Tableau de synthèse</a></li>
+                </ul>
+            </li> 
+            <li><a href="./patrimoine.html">Patrimoine</a>
+                <ul>
+                    <li><a href="./veille.html">Veille technologique</a></li>
+                    <li><a href="./frise.html">Frise chronologique</a></li>
+                </ul>
+            </li>       
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br/><br/>
+    <section id="accueil">
+        <div class="accueil-content">
+            <div class="text">
+                <h2>Mes missions de stage</h2>
+                <h3>Au conseil départemental du Gard</h3>
+                <h4>Ici j'ai eu une grande mission tout au long de mon stage qui était de configurer des commutateurs CISCO & JUNIPER ayant un langage différent l'un de l'autre c'était intéressant à apprendre. J'ai bien sûr effectué des missions sur une journée comme des interventions dans des services.</h4>
+
+                <br/>
+                <h3>A Alès Agglomération</h3>
+                <h4>Ici j'ai eu le droit à plusieurs grosses missions :</h4>
+                <h4>1/ Configurer un routeur RUT240: Le service d’intervention avait besoin d’un routeur 4G pour les accompagner dans les interventions sur site. On a donc décidé de réutiliser un routeur RUT240 qui avait une configuration existante. J’ai donc dû changer les IP configurées, changer le sous-réseau et mettre à jour le firmware.</h4>
+                <h4>2/ Transformer un Raspberry pi en routeur sécurisé: La mission consistait en la configuration d’un Raspberry PI en routeur sécurisé, pour cela j’ai dû le
+                    lier à un routeur RUT240 configuré au préalable, j’ai mis à jours les paquets du Raspberry puis j’y
+                    ai configuré un serveur DHCP en utilisant Kea-DHCP (toutes les configs se font à la ligne de
+                    commande), j’ai ensuite dû y ajouter un firewall, de base on utilisait UFW mais on a opté pour
+                    IPTables auquel j’ai dû ajouter un script en shell qui met en place toutes les règles voulues sur le
+                    Pare-feu. Vers la fin du stage je me suis penché de nouveau sur cette mission dans le but d’y ajouter
+                    un IDS/IPS Suricata, configuration que j’ai débuté mais pas terminé.
+                    </h4>
+                <h4>3/ Configuration par Interface Utilisateur d’un FortiGate (VPN): Via l’interface utilisateur du VPN j’ai pu modifier la configuration d’un FortiGate, on m’a demandé
+                    essentiellement de changer toutes les IP de destinations et les IP Sources puisqu’il s’agissait d’un
+                    VPN déjà configuré mais sur un ancien réseau de l’entreprise. J’ai donc modifié les adresses, les
+                    ports, mit à jour l’OS et installé sur un site ce VPN en prenant soin de bien l’intégrer au réseau sans
+                    créer de problèmes. Le VPN était relié à un routeur ainsi qu’à un HUB auquel les ordinateurs
+                    étaient reliés.
+                    </h4>
+                <h4>4/ Pour cette dernière mission j’ai réalisé des fiches réflexes qui permettent à n’importe qui se le
+                    réseau de pouvoir suivre les indications de manières claires et précises en cas de cyberattaque, la
+                    première fiche réflexe consistait en la déconnexion d’internet pour les utilisateurs.
+                    </h4>
+                <br/><br/><br/><br/>
+            </div>
+            <div class="image">
+                <img src="Ressources/CDG.png" alt="CDG" width="300px">
+                <img src="Ressources/alesagglo.png" alt="Alesagglo" width="300px">
+            </div>
+        </div>
+    </section>
+    <!-- Le contenu de chaque section ira ici -->
+    <footer>
+        <p>&copy; 2024 Keliann Hagelstein - Tous droits réservés</p>
+    </footer>
+</body>
+
+</html>

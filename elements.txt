@@ -1,0 +1,28 @@
+AP : Expliquer chaque AP + Mettre tuto si possible
+
+BTS : Expliquer le BTS SIO // Page SISR & SLAM
+
+Réalisations : Rajouter 
+
+Compétences : Noter les compétences acquise lors du BTS & autre
+
+Contact: Formulaire de contact html & css
+
+Galerie : Insérer des photos (si galerie nécessaire)
+
+Veille technologique : Expliquer le principe + Détails veille
+Frise chronologique : Insérer la frise soit PDF soit photo
+
+----------
+Choses à fixer :
+
+Bug d'affichage photo sur l'Index
+
+
+--------------
+Compétences:
+PC : Dépannages, configuration, assistance utilisateur
+Virtualisation : Windows Serveur 2019, Debian 11, Ubuntu, Proxmox, Vmware.
+Logiciels : Packet Tracer, Wireshark, Visual Studio, Microsoft 365, Active Directory, DHCP,
+GLPI
+Langages : Html, CSS, Powershell
