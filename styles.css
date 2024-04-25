@@ -190,4 +190,11 @@ button:active {
     height: auto; /* Pour conserver les proportions de l'image */
 }
 
-  
+.vertical-links {
+    display: block; /* Afficher les liens comme des blocs */
+}
+
+.vertical-links a {
+    display: block; /* Afficher les liens comme des blocs pour prendre la largeur complète */
+    margin-bottom: 10px; /* Espacement vertical entre les liens */
+}
